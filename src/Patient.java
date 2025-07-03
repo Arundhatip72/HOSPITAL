@@ -29,6 +29,7 @@ public class Patient {
             int affectedRows = preparedStatement.executeUpdate();
             if(affectedRows>0){
                 System.out.println("Patient Added Successfully!!");
+                System.out.println("I am adding this change on the dev branch!!");
             }else{
                 System.out.println("Failed to add Patient!!");
             }
